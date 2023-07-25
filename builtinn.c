@@ -28,8 +28,8 @@ int unset_alias(info_t *info, char *str)
 		return (1);
 	c = *x;
 	*x = 0;
-	creat delete_node_at_index(&(info->alias);
-	get_node_index(info->alias, node_starts_with(info->alias, str, -1)));
+	creat = delete_node_at_index(&(info->alias));
+        get_node_index(info->alias, node_starts_with(info->alias, str, -1));
 	*x = c;
 	return (r);
 }
